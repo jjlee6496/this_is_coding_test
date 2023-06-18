@@ -64,7 +64,7 @@ def insert_sort(data):
     
 #     return data
 
-# 퀵 정렬 - Pythonic 한 버전
+# 퀵 정렬 - Pythonic 한 버전, 백준서 메모리 초과
 def quick_sort(data):
     if len(data) <= 1:
         return data
